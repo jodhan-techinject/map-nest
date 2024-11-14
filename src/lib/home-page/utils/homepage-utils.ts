@@ -2,7 +2,7 @@ import type {HomeTile} from "$lib/home-page/models/HomeTile";
 
 export let homePageTiles: HomeTile[] = [
     {
-        title: 'Historical Landmarks Map of Kerala',
+        title: 'Historical Landmarks of Kerala',
         desc: 'Explore Kerala\'s rich history through our map of historical landmarks. Each location reveals the stories and architecture that shaped Kerala\'s past.',
         image: '/images/home-tiles/historical-place-kerala.jpeg',
         link: '/kerala-map'

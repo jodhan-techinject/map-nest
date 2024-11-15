@@ -5,7 +5,7 @@
 </script>
 
 
-<div class="bg-primary-400 h-[100vh]">
+<div class="bg-primary-400 h-[100vh] overflow-hidden">
     <Header/>
     <slot/>
     <Footer/>

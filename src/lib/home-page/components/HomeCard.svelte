@@ -14,7 +14,9 @@
     <div class="h-full w-full  {$darkMode ? 'bg-black/80' : 'bg-white/70'} absolute z-[20] top-0"></div>
     <div class="px-8 py-10 h-full flex justify-between flex-col z-[30] absolute top-0">
         <div>
-            <div class="bg-primary-300 w-10 h-10 rounded-full rounded-tl-none mb-4 group-hover:-translate-y-1 group-hover:shadow-md group-hover:shadow-primary-200 transition-all"></div>
+            <div class="bg-primary-300 w-10 h-10 rounded-full rounded-tl-none mb-4 group-hover:-translate-y-1 group-hover:shadow-md group-hover:shadow-primary-200 transition-all">
+                <img src="{tile.icon}" class="h-full w-full p-2" alt={tile.title}/>
+            </div>
             <div class="uppercase font-bold text-xl">
                 {tile.title}
             </div>

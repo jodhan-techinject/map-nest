@@ -12,9 +12,9 @@ export let homePageTiles: HomeTile[] = [
         image: '/images/home-tiles/usa-population.jpeg',
         link: '/usa'
     }, {
-        title: 'Locate Your Area',
-        desc: 'Explore popular spots and events happening around your area.',
-        image: '/images/home-tiles/my-loaction.webp',
+        title: '3D Buildings in New York',
+        desc: 'This interactive 3D map showcases the buildings in New York City, giving users a unique perspective on the city\'s architecture. ',
+        image: '/images/home-tiles/nyc-buildings.webp',
         link: '/nyc-building'
     },
 ]

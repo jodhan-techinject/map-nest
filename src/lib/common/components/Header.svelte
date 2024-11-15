@@ -5,14 +5,14 @@
 
 <header class="h-[4rem] shadow-sm shadow-primary-200  {$darkMode ? 'bg-black' : ' bg-primary-100'}">
     <div class="container mx-auto px-4 py-3 flex items-center justify-between">
-        <div class="flex items-center space-x-4 group cursor-pointer">
-            <a href="/" class="p-2 rounded-full hover:bg-primary-foreground/10" aria-label="Menu">
+        <div class="flex items-center justify-center space-x-4 group cursor-pointer">
+            <a href="/" class="flex p-2 rounded-full hover:bg-primary-foreground/10" aria-label="Menu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="{$darkMode ? '#EEEEEE' : '#151515'}" viewBox="0 0 256 256"
                      class=" group-hover:fill-primary-200 transition-all ">
                     <path d="M228.92,49.69a8,8,0,0,0-6.86-1.45L160.93,63.52,99.58,32.84a8,8,0,0,0-5.52-.6l-64,16A8,8,0,0,0,24,56V200a8,8,0,0,0,9.94,7.76l61.13-15.28,61.35,30.68A8.15,8.15,0,0,0,160,224a8,8,0,0,0,1.94-.24l64-16A8,8,0,0,0,232,200V56A8,8,0,0,0,228.92,49.69ZM104,52.94l48,24V203.06l-48-24ZM40,62.25l48-12v127.5l-48,12Zm176,131.5-48,12V78.25l48-12Z"></path>
                 </svg>
+            <h1 class="text-2xl font-bold text-primary-200 uppercase !ml-3">Map Nest</h1>
             </a>
-            <h1 class="text-2xl font-bold text-primary-200 uppercase !ml-2">Map Nest</h1>
         </div>
         <nav class="flex gap-7">
             {#if $darkMode}

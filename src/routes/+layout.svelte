@@ -2,10 +2,11 @@
     import "../app.css";
     import Header from "$lib/common/components/Header.svelte";
     import Footer from "$lib/common/components/Footer.svelte";
+    import { darkMode } from "$lib/common/utils/store";
 </script>
 
 
-<div class="bg-primary-400 h-[100vh] overflow-hidden">
+<div class="{$darkMode ? 'bg-primary-400' : ' bg-primary-50'} h-[100vh] ">
     <Header/>
     <slot/>
     <Footer/>

@@ -1,6 +1,6 @@
 <script lang="ts">
     import {MapLibre} from "svelte-maplibre";
-    const mapTilerApiKey = import.meta.env.MAPTILER_API;
+    const mapTilerApiKey = import.meta.env.VITE_MAPTILER_API;
 
     export let center: [number, number] = [76.4711, 9.8505]
     export let mapClasses: string = '!w-full !h-full'

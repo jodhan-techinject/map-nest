@@ -2,7 +2,7 @@
     import {darkMode} from "$lib/common/utils/store";
 </script>
 
-<header class=" shadow-sm shadow-primary-200  {$darkMode ? 'bg-black' : ' bg-primary-100'}">
+<header class="h-[4rem] shadow-sm shadow-primary-200  {$darkMode ? 'bg-black' : ' bg-primary-100'}">
     <div class="container mx-auto px-4 py-3 flex items-center justify-between">
         <div class="flex items-center space-x-4 group cursor-pointer">
             <a href="/" class="p-2 rounded-full hover:bg-primary-foreground/10" aria-label="Menu">

@@ -3,7 +3,7 @@ export let keralaHistoricMarkers = [
         lngLat: [76.2711, 10.8505],
         name: "Padmanabhapuram Palace",
         description: "A royal palace in Padmanabhapuram, once the seat of the Travancore kings.",
-        image: "/images/kerala-historic/padmanabhapuram-palace.jpg"
+        image: "/images/kerala-historic/padmanabhapuram-palace.webp"
     },
     {
         lngLat: [76.6098, 9.9802],

@@ -3,15 +3,14 @@
 
     export let center: [number, number] = [76.4711, 9.8505]
     export let mapClasses: string = '!w-full !h-full'
-    // export let mapStyle: string = "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
-    export let mapStyle: string = "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
     export let zoom: number = 7.5
     export let pitch: number = 0
+    export let darkMapStyle: boolean = true
 </script>
 
 <MapLibre
         pitch={pitch}
-        style={mapStyle}
+        style={darkMapStyle ? 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json' : 'https://api.maptiler.com/maps/streets/style.json?key=Ilt9w8U79Cp5R3xGpszv'}
         class={mapClasses}
         standardControls
         zoom={zoom}

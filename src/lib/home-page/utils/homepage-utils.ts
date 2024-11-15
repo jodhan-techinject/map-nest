@@ -15,6 +15,6 @@ export let homePageTiles: HomeTile[] = [
         title: 'Locate Your Area',
         desc: 'Explore popular spots and events happening around your area.',
         image: '/images/home-tiles/my-loaction.webp',
-        link: '/kerala'
+        link: '/nyc-building'
     },
 ]

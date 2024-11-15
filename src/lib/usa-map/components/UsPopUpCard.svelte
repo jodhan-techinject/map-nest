@@ -1,6 +1,6 @@
 <script>
     export let data;
-    let props = data?.properties
+    $:props= data?.properties
 </script>
 
 {#if props}

@@ -21,7 +21,7 @@
                           200, 'rgba(235,117,62,0.82)',
                           300, 'rgba(215,48,39,0.82)'
                     ],
-                    'fill-extrusion-opacity': 0.6,
+                    'fill-extrusion-opacity': 0.4,
                   }}
                 beforeLayerType="symbol">
             <Popup openOn="hover" let:data>
